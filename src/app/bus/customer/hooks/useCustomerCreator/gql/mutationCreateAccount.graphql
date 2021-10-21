@@ -1,0 +1,5 @@
+mutation createAccount($form: CreateAccountInput!) {
+  createAccount(input: $form) {
+    name
+  }
+}
